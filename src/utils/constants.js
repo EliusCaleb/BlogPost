@@ -18,7 +18,6 @@ export const GET_BLOG_BY_SEARCHTERM_SUCCESS = "GET_BLOG_BY_SEARCHTERM_SUCCESS";
 export const GET_BLOG_BY_SEARCHTERM_ERROR = "GET_BLOG_BY_SEARCHTERM_ERROR";
 export const SET_SEARCH_TERM = "SET_SEARCH_TERM";
 
-
 export const BLOG_URL = "posts";
 export const USER_URL = "users";
 export const COMMENT_BY_POST_URL = "comments/post";
