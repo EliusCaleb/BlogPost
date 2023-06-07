@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 import { useSidebarContext } from '../../context/sidebarContext'
 import { GiPapers} from "react-icons/gi"
 import { FaBars}  from "react-icons/fa"
-import { search_icon } from '../../utils/images.'
+import { search_icon } from '../../utils/images'
 
 
 
@@ -29,10 +29,10 @@ const NavBar = () => {
                         <Link to = "/" className='nav-link text-white fw-4 fs-19'>Home</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to = "/blog" className='nav-link text-white fw-4 fs-19'>Blog</Link>
+                        <Link to = "/blog/1" className='nav-link text-white fw-4 fs-19'>Blog</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to = "/about" className='nav-link text-white fw-4 fs-19'>About</Link>
+                        <Link to = "/" className='nav-link text-white fw-4 fs-19'>About</Link>
                     </li>
                 </ul>
                 <div className='vertical-line'></div>
